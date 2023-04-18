@@ -1,0 +1,57 @@
+2.Create your own resume in JSON Format
+
+   let myResume={
+  "basics": {
+      "name": "SAMEERA MOHAMMAD",
+      "email": "sameeramohammad02gamil.com",
+      "phone": 7981943591,
+      "degree": "B.Tech",
+   "location": {
+        "address": "flat no-205 ,taiba residency ,suncity",
+        "postalCode": 5080001,
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "country": "India"
+      },
+      "profiles": [
+        {
+          "website": "https://www.linkedin.com/in/sameera-md-1ab8051b7",
+          "github":"https://github.com/sameera-02"
+        }
+      ]
+    },
+    "work": [
+      {
+        "company": "Tejoma Technologies Pvt Ltd",
+        "position": "JR. Recruiter Consultant",
+        "startDate": "2022-03-24",
+        "endDate": "2023-08-15",
+        "summary": "Based on the Client Requirements recruiting the Candidates for different positions through-sourcing/screening/shortlisting/interviewing/onboarding",
+      },
+    ],
+    "education": [
+      {
+        "institution": "Swarna Bharathi Institute of Science and Technology",
+        "department": "Electrical and Electronics Engineering",
+        "studyType": "fulltime",
+        "batch start year": 2018,
+        "batch end year": 2022,
+        "gpa": 7.3,
+      }
+    ],
+    "skills": [
+      {
+        "name": "HTML,CSS ,javascript",
+        "level": "beginner",
+            "languages": [
+      {
+        "language": "Telugu Hindi,Enlish",
+      }
+    ],
+    "interests": [
+      {
+        "name": "reading books,travelling",
+      }
+    ]
+  }
+  console.log(myResume);
